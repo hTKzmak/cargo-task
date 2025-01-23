@@ -1,13 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 html,
 body {
   color: #222;
   font-weight: 400;
   margin: 0;
   padding: 0;
-  font-family: "Ubuntu", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 html header,
 body header {
@@ -22,7 +18,7 @@ body header {
 html header a,
 body header a {
   text-decoration: none;
-  color: #222222;
+  color: #222;
 }
 @media screen and (max-width: 500px) {
   html header a,
@@ -135,7 +131,17 @@ html .container table,
 body .container table {
   margin-top: 20px;
 }
-html .container table tr,
-body .container table tr {
+html .container table .status,
+body .container table .status {
   cursor: pointer;
+}
+html .container table .status:hover,
+body .container table .status:hover {
+  background-color: #ededed;
+}
+@media screen and (max-width: 1000px) {
+  html .container table .status,
+  body .container table .status {
+    background-color: #ededed;
+  }
 }/*# sourceMappingURL=style.css.map */
