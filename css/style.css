@@ -135,17 +135,7 @@ html .container table,
 body .container table {
   margin-top: 20px;
 }
-html .container table .status,
-body .container table .status {
+html .container table tr,
+body .container table tr {
   cursor: pointer;
-}
-html .container table .status:hover,
-body .container table .status:hover {
-  background-color: #ebebeb;
-}
-@media screen and (max-width: 500px) {
-  html .container table .status,
-  body .container table .status {
-    background-color: #ebebeb;
-  }
 }/*# sourceMappingURL=style.css.map */
